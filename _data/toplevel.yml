@@ -1,0 +1,12 @@
+# Top level navigation pages
+- title: blog
+  url: ../blog/index.html
+
+- title: work
+  url: ../work/index.html
+
+- title: about
+  url: ../about/index.html
+
+- title: contact
+  url: ../contact/index.html

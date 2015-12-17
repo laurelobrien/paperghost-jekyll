@@ -1,0 +1,24 @@
+# Portfolio images for generating a gallery
+
+- id: folio
+  description: a list of portfolio images
+  imagefolder: ../img/folio
+  images:
+    - name: 100days.png
+      thumb: 100days-thumb.png
+      title: 100 Days of SVG
+      text: 100 Days of SVG is an on-going project to create 100 scalable vector graphics illustration that are coded for web display.
+      url: 
+      color: green
+    - name: thethingthatmakes.png
+      thumb: thethingthatmakes-thumb.png
+      title: The Thing that Makes the Thing<br>is Always More Interesting than the Thing
+      text: Titled after a lecture by Casey Reas The Thing that Makes the Thing is Always more Interesting than the Thing is a hand-bound book of images that have been re-constructed with a Processing program. They were all taken from NASA's public domain images (macro-imaging of our lives) or personal instant photographs (micro-imaging). The program obscures the images re-drawing it with reference to the original but with more randomness and more machine-provided understanding of things like edges and focus-points. Human-provided focus points are then honed in with a second-pass of drawing.<br>Each photo re-drawing has a vellum overlay of the original NASA caption which is backwards until the image is revealed and the caption sits on the opposite page.
+      url:
+      color: pink
+    - name: condensate1.png
+      thumb: condensate-thumb.png
+      title: Condensate
+      text: Condensate is an interactive window whose view changes with time and user-interaction.
+      url:
+      color: green

@@ -1,0 +1,24 @@
+# Site settings
+title: Paper Ghost
+email: laureljobrien@gmail.com
+description: Paper Ghost is the blog and portfolio of Laurel O'Brien.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://paperghost.co" # the base hostname & protocol for your site
+twitter_username: laureljan
+github_username:  laurelobrien
+gems:             [jekyll-paginate]
+paginate:         3
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+# Default Settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+      author: Laurel

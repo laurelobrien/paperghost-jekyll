@@ -1,0 +1,261 @@
+/* Global & General Styles
+---------------------------*/
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#page-wrap {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer, .page-wrap:after {
+  height: 50px; 
+}
+
+
+.container {
+  width: 60%;
+  margin: 0 auto 200px auto;
+}
+
+.narrow {
+  width: 80;
+}
+
+.page-content {
+  margin: 60px 0 0 0;
+}
+
+.block-wrapper {
+  display: block;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+.feat-img {
+  width: 100%;
+}
+
+.image-underlay {
+  position: relative;
+}
+
+.image-underlay h2 {
+  width: 50%;
+  font-size: 2em;
+  position: absolute;
+  bottom: 30px; left: 30px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-underlay img {
+  width: 100%;
+}
+
+hr {
+  border-top: none;
+  border-bottom: solid 2px #c3eae1;
+}
+
+.shape-bullet {
+  width: 1em;
+  margin: 0 0.4em 0 -1.7em;
+  display: inline;
+  vertical-align: baseline;
+}
+
+
+/* Typography
+---------------------------*/
+nav {
+  font-family: "Apercu Pro", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+} 
+
+#logo {
+  font-family: "Apercu Pro", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+h1, h2, h3, h4, h5, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Apercu Pro", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Apercu Pro", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p a {
+  border-bottom: 2px solid #c3eae1;
+}
+
+p a:hover {
+  background-color: #c3eae1;
+}
+
+p {
+  font-family: "FreightText";
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.current-nav {
+  font-weight: bold;
+  border-bottom: 2px solid #000000;
+}
+
+
+/* Header
+---------------------------*/
+nav {
+  margin: 0;
+  width: 100%;
+  height: 140px;
+  background-image: url("/img/bg-pattern-small-01.svg");
+  background-size: 100px 100px;
+  background-repeat: repeat;
+  position: relative
+}
+
+nav ul {
+  position: absolute;
+  bottom: 20px; right: 20%;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+  text-transform: lowercase;
+}
+
+nav ul :last-child {
+  margin-right: 0;
+}
+
+nav li a:hover {
+  border-bottom: 2px solid #000000;
+}
+
+#logo {
+  position: absolute;
+  bottom: 20px; left: 20%;
+}
+
+
+/* Posts
+---------------------------*/
+.feat-img {
+  width: 100%;
+}
+
+
+/* Homepage
+---------------------------*/
+#homepage .image-underlay {
+  width: 100%;
+}
+
+#homepage .post-snippet {
+  width: 25%;
+  float: right;
+}
+
+#homepage .image-underlay h2 {
+  letter-spacing: 0.05em;
+}
+
+#homepage h3 {
+  vertical-align: baseline;
+  display: inline;
+}
+
+.recent-works {
+  display: inline-block;
+  width: 30%;
+}
+
+
+/* About
+---------------------------*/
+#about .wrapper {
+  width: 65%;
+  margin: 0;
+}
+
+#about img {
+  float: right;
+  width: 30%;
+}
+
+#about img#portrait {
+  width: 25%;
+  float: right;
+  margin: 0 0 20px 30px;
+  border: solid 5px #ffffff;
+  -webkit-box-shadow: 0px 0px 0px 2px rgba(195,234,225,1);
+  -moz-box-shadow: 0px 0px 0px 2px rgba(195,234,225,1);
+  box-shadow: 0px 0px 0px 2px rgba(195,234,225,1);
+}
+
+
+/* Footer
+---------------------------*/
+footer {
+  clear: both;
+}
+
+footer p {
+  font-size: 0.9em;
+  float: left;
+  width: 40%;
+}
+
+footer ul {
+  float: right;
+}
+
+footer ul li {
+  display: inline-block;
+  width: 1.5em;
+  margin: 0;
+  margin: 0 10px;
+}
+
+footer ul li :last-child {
+  margin-right: 0;
+}

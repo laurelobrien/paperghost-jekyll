@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div id="gallery">
+
+  <div id="foliolist">
+    {% for gallery in site.data.folio-images %}
+      {% for image in gallery.images %}
+        <div class="pos-wrapper {{ image.color }}">
+
+          <img src="{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.text }}">
+
+          <div class="wrapper">
+            <h2>{{ image.title }}</h2>
+            <p>{{ image.text }}</p>
+          </div>
+          
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+
+</div>
+
+
+
+

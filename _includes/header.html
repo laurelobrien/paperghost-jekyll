@@ -7,17 +7,17 @@
       <a href="/">Paper Ghost</a>
     </h1>
     <ul>
-      {% for page in site.pages %}
-          <!-- compare the page title to the URL -->
-          {% assign current = page.title | downcase %}
+      {% for page in site.data.toplevel %}
+        <!-- compare the page title to the URL -->
+        {% assign current = page.title | downcase %}
 
-          {% if page.title %}
-          <li {% if location == current %} class="current-nav" {% else %} class="nav-item" {% endif %}>
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          </li>
-          {% endif %}
-          
-        {% endfor %}
+        {% if page.title %}
+        <li {% if location == current %} class="current-nav" {% else %} class="nav-item" {% endif %}>
+          <a href="{{ page.url }}">{{ page.title }}</a>
+        </li>
+        {% endif %}
+        
+      {% endfor %}
     </ul>
   </nav>
 </header>

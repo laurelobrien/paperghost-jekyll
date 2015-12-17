@@ -1,8 +1,5 @@
 ---
-layout: default
-title: Condensate
-image: condensate1.png
-permalink: /condensate/
+layout: gallery
+title: Work
+permalink: /work/
 ---
-
-Condensate is an interactive window, created with Processing.

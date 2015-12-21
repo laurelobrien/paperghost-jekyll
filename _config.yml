@@ -7,7 +7,7 @@ url: "http://paperghost.co" # the base hostname & protocol for your site
 twitter_username: laureljan
 github_username:  laurelobrien
 gems:             [jekyll-paginate]
-paginate:         3
+paginate:         5
 
 # Build settings
 markdown: kramdown

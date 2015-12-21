@@ -6,13 +6,30 @@ layout: default
 
   <div class="block-wrapper">
     <img src="img/triangle.svg" class="shape-bullet">
-    <h3>Latest Post</h3>
+    <h3>Latest Blog Post</h3>
   </div>
 
   {% for post in site.posts limit:1 %}
   <div class="image-underlay">
     <h2>{{ post.title }}</h2>
     <img src="/img/{{ post.image }}">
+  </div>
+
+  <div class="block-wrapper">
+    <img src="img/pentagon.svg" class="shape-bullet">
+    <h3>Recent Work</h3>
+  </div>
+  <div id="recent-work">
+    <ul>
+      {% for gallery in site.data.folio-images limit:3 %}
+        {% for image in gallery.images %}
+      <li>
+        <img src="{{ gallery.imagefolder }}/{{ image.name }}" alt="image.title">
+        <h3>{{ image.title }}</h3>
+      </li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
   </div>
 
 <!--

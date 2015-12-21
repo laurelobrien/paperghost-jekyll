@@ -59,10 +59,10 @@ p {
   width: 50%;
   font-size: 2em;
   position: absolute;
-  bottom: 30px; left: 30px;
-  padding: 20px;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 40px; left: 40px;
+  padding: 30px;
+  color: #000000;
+  background-color: rgba(195,234,225,0.7);
 }
 
 .image-underlay img {
@@ -188,6 +188,7 @@ nav li a:hover {
 ---------------------------*/
 #homepage .image-underlay {
   width: 100%;
+  margin: 0 0 50px 0;
 }
 
 #homepage .post-snippet {
@@ -204,9 +205,24 @@ nav li a:hover {
   display: inline;
 }
 
-.recent-works {
-  display: inline-block;
+#recent-work ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#recent-work li {
+  /*display: inline-block;*/
   width: 30%;
+  vertical-align: top;
+}
+
+#recent-work img {
+  width: 100%;
+}
+
+#recent-work h3 {
+  font-weight: normal;
+  font-size: 1.2em;
 }
 
 

@@ -9,13 +9,13 @@ layout: default
       {% for image in gallery.images %}
         <div class="pos-wrapper {{ image.color }}">
 
-          <img src="{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.text }}">
+          <img src="{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.title }}">
 
           <div class="wrapper">
             <h2>{{ image.title }}</h2>
             <p>{{ image.text }}</p>
           </div>
-          
+
         </div>
       {% endfor %}
     {% endfor %}
